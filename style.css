@@ -1,0 +1,116 @@
+#cmp {
+    top: 50px;
+    position: relative;
+    float: left;
+    width: auto;
+}
+
+#pmc {
+    top: 50px;
+    position: relative;
+    float: left;
+    width: auto;
+}
+
+#odstep {
+    top: 50px;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#statki {
+    position: relative;
+    width: 160px;
+    float: left;
+
+}
+
+.pole {
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.pole1 {
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.second :nth-child(18n+1) {
+    clear: both;
+}
+
+.zewnatrz {
+    border: 0;
+    width: 0;
+    height: 0;
+}
+
+.black {
+    background-color: black;
+}
+
+.poleStatku {
+    position: relative;
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#container {
+    width: 100vw;
+    height: 450px;
+}
+
+.wiersz {
+    margin-top: 10px;
+    height: 32px;
+}
+
+.najechany {
+
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.postawiony {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.klikniety {
+    background-color: blue;
+}
+
+.first :nth-child(14n+1) {
+    clear: both;
+}
+
+.nietrafiony {
+    background-color: yellow;
+}
+
+.trafiony {
+    background-color: blue;
+}
+
+#btn {
+    display: none;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    clear: both;
+    left: 380px;
+}
